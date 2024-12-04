@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+/* top bar */
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 400px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(43, 42, 42);
+}
+
+/* navbar */
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+/* header */
+.header {
+    text-align: center;
+    padding: 160px;
+}
+
+/* header img */
+.header-img img {
+    background-color: crimson;
+    border-radius: 50%;
+}
+
+/* header h1 */
+.header-h1 h1 {
+    color: #fff;
+    padding: 23px;
+}
+
+.header-h1 h1 span {
+    color: darkorange;
+}
+
+/* header p */
+.header-p {
+    color: #858282;
+    padding: 7px;
+}
+
+/* header btn */
+.header-btn {
+    padding: 30px;
+}
+
+.header-btn a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+.experience-with {
+    text-align: center;
+    margin-top: -100px;
+}
+
+.experience-with h1 {
+    color: #858282;
+    font-size: 15px;
+}
+
+.experience-with-logo {
+    padding: 50px;
+}
+
+/* Project */
+.project {
+    text-align: center;
+    padding: 50px;
+}
+
+.project-h1 {
+    color: #FF8660;
+}
+
+.project img {
+    padding: 10px 15px;
+    margin: 10px;
+}
+
+/* Experience */
+.experience {
+    text-align: center;
+    padding: 40px;
+}
+
+.experience-h1 {
+    color: #5BADFF;
+}
+
+.experience img {
+    padding: 40px;
+}
+
+footer {
+    background-color: rgb(43, 42, 42);
+}
+
+.contact {
+    padding: 70px 400px;
+}
+
+.contact-h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-p {
+    color: #C5C5C5;
+    margin-bottom: 15px;
+}
+
+.contact-span {
+    color: #C5C5C5;
+    margin-bottom: 30px;
+}
